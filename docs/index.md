@@ -10,12 +10,23 @@ manuales libres que pueden encontrarse en la sección de [Referencias](/referenc
 
 ## Contenido
 
-- Inicio
-- Referencias
+- [Introducción](Introducción)
+- [Sesión 1](Sesion-1/Introducción)
+- [Sesión 2](Sesion-2/Introducción)
+- [Referencias](referencias)
 
 ## Agradecimientos
 
 Este curso ha sido impartido por las siguientes personas:
+
+- [Alberto Cano](https://github.com/0Kan0)
+- [Antonio Moruno](https://github.com/moruno21)
+- [David Perez](https://github.com/Davison27)
+- [David Salcedo](https://github.com/Salsedini)
+- [Javier de Santiago](https://github.com/jdes01)
+- [Moises Moyano](https://github.com/mmc2001)
+- [Marcos Rivera](https://github.com/MarcosRigal)
+- [Marcos Rodríguez](https://github.com/mark-doblefilo)
 
 ## Licencia
 
