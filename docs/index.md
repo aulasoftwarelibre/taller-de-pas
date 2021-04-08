@@ -21,7 +21,7 @@ Este curso ha sido impartido por las siguientes personas:
 
 - [Alberto Cano](https://github.com/0Kan0)
 - [Antonio Moruno](https://github.com/moruno21)
-- [David Perez](https://github.com/Davison27)
+- [David Pérez](https://github.com/Davison27)
 - [David Salcedo](https://github.com/Salsedini)
 - [Javier de Santiago](https://github.com/jdes01)
 - [Moises Moyano](https://github.com/mmc2001)
