@@ -4,7 +4,9 @@
 
 Kubernetes define un conjunto de bloques de construcción que conjuntamente proveen los mecanismos para el despliegue, mantenimiento y escalado de aplicaciones. Los componentes que forman Kubernetes están diseñados para estar débilmente acoplados pero a la vez ser extensibles para que puedan soportar una gran variedad de flujos de trabajo. La extensibilidad es provista en gran parte por la API de Kubernetes, que es utilizada por componentes internos así como extensiones y contenedores ejecutados sobre Kubernetes.
 
-## Componentes:
+## Módulos básicos de Kubernetes:
+
+A continuación se describe la creación y administración de los Pods
 
 ### Pods
 

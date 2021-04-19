@@ -1,7 +1,7 @@
 # ¿Qué es Kubernetes?
 
 <div align="center">
-    <img width="500" src="https://lh3.googleusercontent.com/proxy/Hb9GiQrq9Mrpqnof2YqLlYcETnnx1_JQVGDByEp3XYxsiMMlaE0j87i1R2DbuDLR6aLCoPPPnQDKOA6a_Seirz6MqslWozeBb8dz32hSYLNuXTWhAijHd7PVL6W7" alt="Kubelogo">
+    <img width="500" src="docs/Sesion-2/images/nav_logo.svg" alt="Kubelogo">
 </div>
 
 ## Introducción
