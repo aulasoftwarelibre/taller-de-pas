@@ -18,10 +18,10 @@ manuales libres que pueden encontrarse en la sección de [Referencias](/referenc
 
 ## Contenido
 
-- [Inicio](index)
-- [Sesión 1](Sesion-1/Introducción)
-- [Sesión 2](Sesion-2/Introducción)
-- [Referencias](referencias)
+- Inicio
+- Sesión 1
+- Sesión 2
+- Referencias
 
 ## Agradecimientos
 

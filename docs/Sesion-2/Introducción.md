@@ -1,8 +1,6 @@
 # ¿Qué es Kubernetes?
 
-<div align="center">
-    <img width="500" src="images/nav_logo.svg" alt="Kubelogo">
-</div>
+![KubeLogo](images/nav_logo.svg)
 
 ## Introducción
 
