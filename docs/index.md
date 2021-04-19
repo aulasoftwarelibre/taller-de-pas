@@ -10,7 +10,7 @@ manuales libres que pueden encontrarse en la sección de [Referencias](/referenc
 
 ## Contenido
 
-- [Introducción](Introducción)
+- [Inicio](index)
 - [Sesión 1](Sesion-1/Introducción)
 - [Sesión 2](Sesion-2/Introducción)
 - [Referencias](referencias)
