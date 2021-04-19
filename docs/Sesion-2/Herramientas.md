@@ -1,29 +1,23 @@
-# ¿Como funciona?
+# ¿Qué hace de Kubernetes una plataforma? 
 
-![Kubernetes Logo](https://unpocodejava.files.wordpress.com/2020/01/image006.jpg)
+Kubernetes fue diseñada como una plataforma: para poder construir un ecosistema de componentes y herramientas que hacen más fácil el desplegar, escalar y administrar aplicaciones. Este ecosistema ofrece muchas funcionalidades entre las cuales destacan:
 
-Kubernetes define un conjunto de bloques de construcción que conjuntamente proveen los mecanismos para el despliegue, mantenimiento y escalado de aplicaciones. Los componentes que forman Kubernetes están diseñados para estar débilmente acoplados pero a la vez ser extensibles para que puedan soportar una gran variedad de flujos de trabajo. La extensibilidad es provista en gran parte por la API de Kubernetes, que es utilizada por componentes internos así como extensiones y contenedores ejecutados sobre Kubernetes.
+## Kubectl
 
-## Módulos básicos de Kubernetes:
+|<div>  <br> Usando kubectl, puedes <br> inspeccionar recursos <br> del clúster; crear, eliminar <br> y actualizar componentes; <br> Para más información: <br> <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">https://kubernetes.io/kubectl/</a> </div>| <img width="200" src="https://phoenixnap.com/blog/wp-content/uploads/2020/01/kubectl-300x200.jpg" alt="Python-numpy">|
+|---|---|
 
-A continuación se describe la creación y administración de los Pods
+## Kind
 
-### Pods
+|<div>  <br> Kind le permite usar Kubernetes <br> en su máquina local. <br> Para más información: <br> <a href="https://kind.sigs.k8s.io/docs/user/quick-start/">https://kubernetes.io/kind/</a> </div>| <img width="200" src="https://miro.medium.com/max/3200/1*8BSDPRDstq-CqPzCRBgKGA.png" alt="Python-pygame">|
+|---|---|
 
-La unidad básica de planificación en Kubernetes se denomina pod. Esta agrega un nivel de abstracción más elevado a los componentes en contenedores. Un pod consta de uno o más contenedores en los que se garantiza su ubicación en el mismo equipo anfitrión y pueden compartir recursos. 
+## MiniKube
 
-Cada pod en Kubernetes es asignado a una única dirección IP (dentro del clúster) que permite a las aplicaciones utilizar puertos sin riesgos de conflictos. Un pod puede definir un volumen, como puede ser un directorio de disco local o un disco de red, y exponerlo a los contenedores dentro del pod. Los pods pueden ser administrados manualmente a través de la API de Kubernetes, o su administración puede ser delegada a un controlador.
+|<div>  <br> Minikube es una herramienta<br> que le permite usar <br> Kubernetes en su máquina local. <br> minikube le permite ejecutar <br> un único nodo <br> en su computadora personal para <br> que pueda probar Kubernetes <br> Para más información: <br> <a href="https://minikube.sigs.k8s.io/docs/start/">https://kubernetes.io/minikube/</a> </div>| <img width="200" src="https://www2.deloitte.com/content/dam/Deloitte/es/Images/promo_images/tecnologia/Deloitte-Es-Tecnologia-Minikube-1x1.jpg" alt="Python-tkinter">|
+|---|---|
 
-### Nodo
+## Kubeadm
 
-El nodo, también conocido como esclavo o worker, es la máquina física (o virtual) donde los contenedores (flujos de trabajos) son desplegados. Cada nodo en el clúster debe ejecutar la rutina de tiempo de ejecución (como Docker), así como también los componentes mencionados más abajo, para comunicarse con el maestro para la configuración en red de estos contenedores.
-
-### Etiquetas y selectores
-
-Kubernetes permite a los clientes (usuarios o componentes internos) vincular pares clave-valor llamados etiquetas (en inglés label) a cualquier objeto API en el sistema, como pods o nodos. Correspondientemente, selectores de etiquetas son consultas contra las etiquetas que resuelven a los objetos que las satisfacen​.
-
-Las etiquetas y los selectores son el mecanismo principal de agrupamiento en Kubernetes, y son utilizados para determinar los componentes sobre los cuales aplica una operación.
-
-Por ejemplo, si un pod de una aplicación tiene la etiqueta para un nivel del sistema (“front-end”, “back-end”, por ejemplo) y un release_track (“canary”, “production”, por ejemplo), entonces una operación sobre todos los nodos “back-end” y “canary” podría utilizar un selector de etiquetas como el siguiente:
-
-      nivel=back-end AND release_track=canary
+|<div>  <br> También se puede <br> utilizar kubeadm <br>para crear y gestionar <br>clústeres de Kubernetes <br>Para más información: <br> <a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/">https://kubernetes.io/kubeadm/</a>  </div>| <img width="200" src="https://blog.polyaxon.com/static/9914fd3ebd12aac1140e1202e91ae2e3/6a62d/kubeadm.png" alt="Python-django">|
+|---|---|
