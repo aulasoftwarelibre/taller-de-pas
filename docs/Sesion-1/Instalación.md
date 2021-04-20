@@ -17,7 +17,6 @@ Debido a que, dependiendo de la distribución, la forma de instalarlo difiere, e
 
 Para saber si tienes Docker bien instalado, los tutoriales oficiales siempre te indican que inicies un contenedor de ejemplo. Esto es lo que sucede:
 
-    
     $ sudo docker run hello-world
     Unable to find image 'hello-world:latest' locally
     latest: Pulling from library/hello-world
@@ -60,10 +59,6 @@ Si estamos usando _Docker_ en nuestro ordenador, podemos configurar nuestro usua
     sudo usermod -aG docker $USER
 
 Para que surjan efecto los cambios, debemos de cerrar y volver a abrir la sesión.
-
-### Requisitos del curso
-
-**_Marquitos tiene que decirnos el nombre de la imagen aqui_**
 
 ### Herramientas
 

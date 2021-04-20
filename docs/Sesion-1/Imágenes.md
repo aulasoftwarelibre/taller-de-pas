@@ -14,7 +14,7 @@ Vamos a imaginarnos que queremos crear una web con _Wordpress_. Si buscamos en e
 
 ### Descarga
 
-Las imagenes que nos descargamos, se identifican tanto por nombre como por versión. De esa manera, podemos tener distintas versiones de una misma imagen. En la página del registro de _algo marquitos_ veremos una pestaña con el nombre _Tags_, con las versiones disponibles.
+Las imagenes que nos descargamos, se identifican tanto por nombre como por versión. De esa manera, podemos tener distintas versiones de una misma imagen. En la página del registro veremos una pestaña con el nombre _Tags_, con las versiones disponibles.
 
 Para usar una en concreto, se usa dos puntos seguido del nombre de la versión. SI no se indica nada, como hasta ahora, por defecto se descarga la etiquetata como _latest_
 
