@@ -1,4 +1,6 @@
 arrange:
   - Introducción.md
+  - ConceptosBasicos.md
+  - Arquitectura.md
   - Herramientas.md
   - MiniKube.md
