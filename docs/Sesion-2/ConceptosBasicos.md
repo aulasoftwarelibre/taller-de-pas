@@ -38,7 +38,7 @@ Un ejemplo claro de pod con varios contenedores seria el de una app donde en un 
 
 ![Cluster](images/pod.png)
 
-Cada nodo ejecuta `kubelet` para comunicarse con el nodo Master, y un gestor de contenedores, `Docker`en la mayoría de los casos.
+Cada pod cuenta con una IP propia dentro de nuestro equipo, lo que nos permitirá comunicarlos entre ellos de forma organizada.
 
 <br>
 
@@ -49,5 +49,14 @@ Cada nodo será cada máquina de nuestro cluster. La estructura del nodo Master 
 ![Cluster](images/nodo.png)
 
 Cada nodo ejecuta `kubelet` para comunicarse con el nodo Master, y un gestor de contenedores, `Docker`en la mayoría de los casos.
+
+<br>
+
+## Servicios
+
+Como dijimos en la definición, los servicios son abstracciones que nos facilitan comunicar nodos y sus respectivos pods.
+Por ejemplo, uno de los usos mas basicos es el de comunicar y dirigir el trafico entre pods. Esto permite que si un pod "muere", podamos crear una replica nueva de dicho pod y redirigir el trafico, lo que permite que la aplicación no sufra el impacto de la muerte del pod.
+
+![Cluster](images/servicio.png)
 
 <br>
