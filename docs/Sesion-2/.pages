@@ -5,5 +5,5 @@ arrange:
   - Arquitectura.md
   - Herramientas.md
   - Kubectl.md
-  - MiniKube.md
   - EjemploDeployment.md
+  - MiniKube.md
