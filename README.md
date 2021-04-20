@@ -16,15 +16,25 @@ Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
 El contenido del mismo es en parte de producción propia, en parte de otros
 manuales libres que pueden encontrarse en la sección de [Referencias](/referencias).
 
-## Contenido:
+## Contenido
 
 - Inicio
+- Sesión 1
+- Sesión 2
 - Referencias
 
 ## Agradecimientos
 
 Este curso ha sido impartido por las siguientes personas:
 
+- [Alberto Cano](https://github.com/0Kan0)
+- [Antonio Moruno](https://github.com/moruno21)
+- [David Pérez](https://github.com/Davison27)
+- [David Salcedo](https://github.com/Salsedini)
+- [Javier de Santiago](https://github.com/jdes01)
+- [Moises Moyano](https://github.com/mmc2001)
+- [Marcos Rivera](https://github.com/MarcosRigal)
+- [Marcos Rodríguez](https://github.com/mark-doblefilo)
 
 ## Licencia
 
