@@ -1,4 +1,4 @@
-# Tipos de servicios:
+# Tipos de servicios
 
 ## ClusterIP:
 

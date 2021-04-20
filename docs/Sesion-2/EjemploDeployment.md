@@ -1,4 +1,4 @@
-# Ejemplo de deployment de una app en kubernetes:
+# Ejemplo de deployment de una app en kubernetes
 
 <br>
 
