@@ -4,4 +4,6 @@ arrange:
   - Servicios.md
   - Arquitectura.md
   - Herramientas.md
+  - Kubectl.md
   - MiniKube.md
+  - EjemploDeployment.md
