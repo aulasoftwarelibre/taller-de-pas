@@ -1,4 +1,4 @@
-# ¿Qué hace de Kubernetes una plataforma? 
+# Herramientas
 
 Kubernetes fue diseñada como una plataforma: para poder construir un ecosistema de componentes y herramientas que hacen más fácil el desplegar, escalar y administrar aplicaciones. Este ecosistema ofrece muchas funcionalidades entre las cuales destacan:
 
