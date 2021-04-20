@@ -1,1 +1,1 @@
-#Conceptos básicos:
+# Conceptos básicos
