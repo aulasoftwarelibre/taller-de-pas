@@ -6,7 +6,7 @@ Ahora que ya conocemos el funcionamiento de kubernetes llega el momento de afian
 
 Esta nos permitirá levantar un nodo en nuestra máquina para que podamos empezar a trabajar con Kubernetes.
 
-Requisitos mínimos:
+## Requisitos mínimos:
 
 - Dual-Core CPU o superior
 - 2GB de RAM
@@ -16,6 +16,14 @@ Requisitos mínimos:
 
 Si tu equipo no cuenta con los recursos suficientes para ejecutar MiniKube o no quieres instalarlo en tu ordenador personal, no te preocupes puedes seguir igualmente el tutorial desde la web de MiniKube donde dispones de todas las instrucciones paso a paso y admás cuentas con una consola virtual para realizar el tutorial.
 
-Enlace al tutorial:
+## Enlace al tutorial:
 
-[Hello Minikube](https://kubernetes.io/es/docs/tutorials/hello-minikube/).
+- [Hello Minikube](https://kubernetes.io/es/docs/tutorials/hello-minikube/)
+
+## Otros cursos y guías:
+
+- [Kubernetes Introduction](https://www.katacoda.com/courses/kubernetes)
+
+- [Extending Kubernetes](https://www.katacoda.com/courses/extending-kubernetes)
+ 
+- [Orchestration & Application Definition](https://www.katacoda.com/courses/application-orchestration-definition)

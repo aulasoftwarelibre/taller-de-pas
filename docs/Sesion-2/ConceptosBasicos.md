@@ -1,4 +1,4 @@
-# Conceptos básicos:
+# Conceptos básicos
 
 Vamos a ver varios conceptos que debemos conocer:
 
