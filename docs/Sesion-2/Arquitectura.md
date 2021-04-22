@@ -1,5 +1,7 @@
 # Arquitectura de Kubernetes
 
+![Arquitectura de Kubernetes](images/arquitectura1.png)
+
 Como hemos visto, un cluster de kubernetes esta formado por un `nodo Master` y de `2 a n nodos Worker`
 
 Como vemos en la imagen, Un nodo Master se comunica con los otros nodos 1 y 2.

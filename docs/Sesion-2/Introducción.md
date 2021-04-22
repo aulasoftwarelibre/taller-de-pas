@@ -10,6 +10,8 @@ Se trata de un sistema de código libre para la automatización del despliegue, 
 
 Soporta diferentes entornos para la ejecución de contenedores, incluido Docker el cual vimos en la sesión anterior.
 
+![KubeResumen](images/resumen.png)
+
 Actualmente se utiliza en multitud de proyectos y empresas entre las cuales destaca:
 
 - Rancher Labs en su plataforma de mejoramiento de contenedores Rancher​. 
