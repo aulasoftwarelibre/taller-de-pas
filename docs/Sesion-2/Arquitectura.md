@@ -5,11 +5,7 @@ Como vemos en la imagen, Un nodo Master se comunica con los otros nodos 1 y 2.
 
 Vamos a ver nodo por nodo cuales son las herramientas que componen la arquitectura de nuestro cluster:
 
-<br>
-
 ![Arquitectura de Kubernetes](images/arquitectura.jpg)
-
-<br>
 
 En nuestro nodo Master encontramos `etcd`, `controller manager`, `scheduler` y `kube api-server`.
 
@@ -21,15 +17,11 @@ En nuestro nodo Master encontramos `etcd`, `controller manager`, `scheduler` y `
 
 - kube api-server: expone la `API de kubernetes`. Esto lo hace comunicandose con el `kubelet` de cada nodo y con el `kubectl`.
 
-<br>
-
 Ahora vamos a ver los componentes del nodo:
 
 - pods: cada pod desplegado en el nodo, con sus respectivos `contenedores y volumenes`.
 
 - kubelet: se comunica con la API de kubernetes gracias al `kube api-server`
-
-<br>
 
 Otros objetos de la arquitectura de kubernetes:
 

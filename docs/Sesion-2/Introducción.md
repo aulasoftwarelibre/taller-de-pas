@@ -16,4 +16,3 @@ Actualmente se utiliza en multitud de proyectos y empresas entre las cuales dest
 - Red Hat para su producto OpenShift​
 - CoreOS para su producto Tectonic
 - IBM para su producto IBM Spectrum Conductor for Containers.
-

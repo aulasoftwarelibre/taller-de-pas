@@ -4,8 +4,6 @@
 
 El servicio toma una IP interna del cluster y hace que dicho servicio solo sea accesible a traves del cluster.
 
-<br>
-
 ![clusterIP](images/clusterIP-service.png)
 
 ```
@@ -27,13 +25,9 @@ ports:
   protocol: TCP
 ```
 
-  <br>
-
 ## NodePort:
 
 Expone el servicio a cada Nodo a traves de la IP de estos.
-
-<br>
 
 ![nodePort](images/nodePort-service.png)
 
@@ -55,13 +49,9 @@ spec:
     protocol: TCP
 ```
 
-  <br>
-
 ## Load Balancer:
 
-Expone le servicio de forma externa utilizando un balanceador (cloud, si se puede) y genera automaticamente un NodePort y un ClusterIP.
-
-<br>
+Expone el servicio de forma externa utilizando un balanceador (cloud, si se puede) y genera automaticamente un NodePort y un ClusterIP.
 
 ![loadBalancer](images/loadBalancer-service.png)
 
@@ -92,13 +82,9 @@ spec:
           servicePort: 8080
 ```
 
-<br>
-
 ## ExternalName:
 
 Mapea el servicio al exterior con un nombre definido.
-
-<br>
 
 ```
 $ cat externalName-service.yaml
@@ -113,13 +99,9 @@ spec:
   externalName: my.service.example.com
 ```
 
-<br>
-
 ## Ingress:
 
-no es un servicio como tal, actua como un 'enrutador de servicios'
-
-<br>
+No es un servicio como tal, actua como un 'enrutador de servicios'
 
 ![ingress](images/ingress.png)
 
@@ -149,5 +131,3 @@ spec:
           serviceName: bar
           servicePort: 8080
 ```
-
-<br>

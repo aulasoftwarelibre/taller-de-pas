@@ -1,6 +1,4 @@
-# Ejemplo de deployment de una app en kubernetes
-
-<br>
+# Ejemplo de deployment
 
 Como sabemos, para trabajar con kubernetes necesitamos un cluster con dos nodos Worker y un nodo Master del que no disponemos.
 Por eso, para practicar en nuestro ordenador, vamos a utilizar `Minikube`.
@@ -15,20 +13,14 @@ Podemos inicializarlo de la siguiente manera:
 
 Esto hará que minikube empiece a funcionar, simulando asi nuestro entorno de prueba local.
 
-<br>
-
 Ahora lo que vamos a hacer es clonar el repositorio de la App que queremos levantar.
 En este caso vamos a utilizar la 'Pokeapp', una Appweb de Pokemon desarrollada en Angular por Antonio Moruno (compañero del grado de informatica en la UCO y delegado en el Aula de Software Libre).
-
-<br>
 
 ```
     $ git clone https://github.com/moruno21/pokeapp
 ```
 
 Clonamos el repositorio a nuestro directorio de trabajo (el escritorio por ejemplo).
-
-<br>
 
 Ahora vamos a crear un Dockerfile que nos genere la imagen que necesitamos:
 
@@ -102,8 +94,6 @@ Ahora creamos nuestro `pokedeploy.yaml` y nuestro `pokeloadbalancer.yaml`.
 
 Con esto creamos un deployment en el que levantaremos 5 replicas (5 pods) que se comunicaran a traves del puerto 80 y que contendran uno de nuestros contenedores (cuya imagen creamos con el Dockerfile).
 
-<br>
-
 Ahora hacemos el `pokeloadbalancer.yaml`:
 
 ```
@@ -128,17 +118,11 @@ Ahora hacemos el `pokeloadbalancer.yaml`:
 
 Este será nuestro principal servicio. Redistribuirá el tráfico que sostenga nuestra aplicacion, "balanceando la carga" de los pods para no saturarlos.
 
-<br>
-
 Ahora que hemos desplegado nuestros pods, cuyo estado comprobamos con `kubectl get pods` y nuestro servicio, que podemos ver con `kubectl get services`.
 
 Podemos decir que ya hemos conpletado el deploy de nuestra app. De igual forma, podemos hacer `kubectl get deployments` para ver informacion del mismo.
 
-<br>
-
 Al tratarse de un ejemplo ejecutado en un cluster de prueba, expondremos nuestro cluster usando `minikube tunnel`.
-
-<br>
 
 Ahora, si volvemos a ejecutar `kubectl get services` veremos que a nuestro pokeLoadBalancer se le ha asignado una IP externa.
 

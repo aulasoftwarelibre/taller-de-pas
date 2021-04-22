@@ -19,7 +19,7 @@ Donde `command`, `TYPE`, `NAME`, y `flags` son:
 * `command`: Operación que se desea realizar sobre uno o más recursos. Por ejemplo: `create`, `get`, `describe`, `delete`.
 
 * `TYPE`: Indica el [tipo de recurso](#resource-types) al que se le aplica la operación. Los tipos de recursos son insensibles a las mayúsculas y se pueden indicar tanto en singular, plural o incluso de forma abreviada.
-  Por ejemplo los siguientes comandos producen la misma salida:
+Por ejemplo los siguientes comandos producen la misma salida:
 
    ```shell
    kubectl get pod pod1
