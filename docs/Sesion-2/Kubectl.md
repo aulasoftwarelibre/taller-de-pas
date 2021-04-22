@@ -48,7 +48,6 @@ Al realizar una operación en varios recursos, puede especificar cada recurso po
 
 !!! Atención 
 Las banderas que especifiquemos a través de la linea de comandos anula los valores predeterminados de las banderas y las variables de entorno correspondientes.
-!!!
 
 Si necesitas ayuda escribe `kubectl help` en la consola.
 

@@ -1,24 +1,22 @@
 # Ejemplo de deployment
 
+![PokeApp](https://pokeapp-git-master-moruno21.vercel.app/assets/developedBy.png)
+
 Como sabemos, para trabajar con kubernetes necesitamos un cluster con dos nodos Worker y un nodo Master del que no disponemos.
 Por eso, para practicar en nuestro ordenador, vamos a utilizar `Minikube`.
 
-Minikube nos permite simular en nuestro equipo (solo necesitamos un ordenador) un cluster entero con su nodo Master y un nodo worker.
+Minikube nos permite simular en nuestro equipo un cluster entero con su nodo Master y un nodo worker.
 
 Podemos inicializarlo de la siguiente manera:
 
-```
-    $ minikube start
-```
+     minikube start
 
 Esto hará que minikube empiece a funcionar, simulando asi nuestro entorno de prueba local.
 
 Ahora lo que vamos a hacer es clonar el repositorio de la App que queremos levantar.
 En este caso vamos a utilizar la 'Pokeapp', una Appweb de Pokemon desarrollada en Angular por Antonio Moruno (compañero del grado de informatica en la UCO y delegado en el Aula de Software Libre).
 
-```
-    $ git clone https://github.com/moruno21/pokeapp
-```
+    git clone https://github.com/moruno21/pokeapp 
 
 Clonamos el repositorio a nuestro directorio de trabajo (el escritorio por ejemplo).
 
@@ -52,9 +50,7 @@ Ahora vamos a crear un Dockerfile que nos genere la imagen que necesitamos:
 
 Con este Dockerfile podremos genera la imagen que usarán nuestros contenedores de la siguiente forma:
 
-```
-    $ docker build -t pokeapp-image .
-```
+    docker build -t pokeapp-image .
 
 Hemos generado nuestra imagen y podemos comprobarlo haciendo `$ docker images`
 
@@ -118,11 +114,21 @@ Ahora hacemos el `pokeloadbalancer.yaml`:
 
 Este será nuestro principal servicio. Redistribuirá el tráfico que sostenga nuestra aplicacion, "balanceando la carga" de los pods para no saturarlos.
 
-Ahora que hemos desplegado nuestros pods, cuyo estado comprobamos con `kubectl get pods` y nuestro servicio, que podemos ver con `kubectl get services`.
+Ahora que hemos desplegado nuestros pods, cuyo estado comprobamos con 
 
-Podemos decir que ya hemos conpletado el deploy de nuestra app. De igual forma, podemos hacer `kubectl get deployments` para ver informacion del mismo.
+    kubectl get pods 
 
-Al tratarse de un ejemplo ejecutado en un cluster de prueba, expondremos nuestro cluster usando `minikube tunnel`.
+Y nuestro servicio, que podemos ver con 
+
+    kubectl get services
+
+Podemos decir que ya hemos conpletado el deploy de nuestra app. De igual forma, podemos ver informacion del mismo con:
+
+    kubectl get deployments
+
+Al tratarse de un ejemplo ejecutado en un cluster de prueba, expondremos nuestro cluster usando 
+
+    minikube tunnel
 
 Ahora, si volvemos a ejecutar `kubectl get services` veremos que a nuestro pokeLoadBalancer se le ha asignado una IP externa.
 
