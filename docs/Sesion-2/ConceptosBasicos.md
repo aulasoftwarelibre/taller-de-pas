@@ -2,10 +2,6 @@
 
 Vamos a ver algunos conceptos básicos que deberíamos conocer:
 
-- Cluster: Conjunto de maquinas (ordenadores físicos, servidores, etc.) y todo su contenido. Por así decirlo, podemos definirlo como un 'todo'.
-
-Ahora que ya conocemos que objetos existen en un cluster de Kubernetes, vamos a definirlos en profundidad.
-
 ## Pods
 
 Los Pods son la unidad mínima de Kubernetes. Cada nodo tendra de 1 a n pods, y cada uno puede tener dentro contenedores, volumenes o ambos. Estos se levantan cuando se crea un Deployment, y se encuentran como contenedores dentro de los `nodos`.
